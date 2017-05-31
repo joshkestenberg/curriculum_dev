@@ -1,0 +1,204 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+a:hover {
+  color: rgb(62, 230, 209);
+}
+
+#nav{
+  position: fixed;
+  background: rgb(62, 230, 209);
+  width: 100%;
+  height: 40px;
+  top: 0%;
+  z-index: 1000;
+  font-weight: bold;
+}
+
+#nav a:hover{
+  color: rgb(255, 153, 0);
+}
+
+#nav li {
+  display: inline-block;
+  color: white;
+  width: 24%;
+  text-align: center;
+  height: 40px;
+  font-size: 2em;
+  font-family: 'Catamaran';
+  padding-top: 4px;
+}
+
+#banner {
+  margin-top: 40px;
+  padding-top: 110px;
+  height: 370px;
+  font-family: 'Sniglet', cursive;
+  -webkit-text-stroke: 3px white;
+  color: rgb(62, 230, 209);
+  text-align: center;
+  font-size: 10em;
+  width: 100%;
+  background-image: url('http://assets.epicurious.com/photos/57ea88b85380fbcb1621ee23/2:1/w_1260%2Ch_630/meatloaf.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#main{
+  position: relative;
+  width: 60%;
+  height: 1000px;
+  margin: auto;
+  background: rgb(218, 218, 218);
+}
+
+#serv-box{
+  top: 11%;
+  position: relative;
+  width: 80%;
+  height: 18%;
+  margin: auto;
+}
+
+#serv-box h2{
+  font-size: 2em;
+  font-family: 'Catamaran';
+  text-align: center;
+}
+
+.services{
+  float: left;
+  width: 33%;
+  height: 100%;
+  position: relative;
+}
+
+.services-p{
+  font-family: 'Catamaran';
+  font-size: 1.2em;
+  display: inline-block;
+  overflow: hidden;
+  max-height: 80%;
+  font-weight: lighter;
+  color: rgb(255, 153, 0);
+}
+
+.services-a{
+  font-size: 1.5em;
+  text-decoration: underline;
+  font-style: italic;
+  position: absolute;
+  bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.services-a a:hover{
+  color: rgb(255, 153, 0);
+  font-size: 1.51em;
+}
+
+.services-a, .services-p {
+  margin: 5%;
+}
+
+#serv1{
+  border-right: 2px solid rgb(62, 230, 209);
+}
+
+#serv3{
+  border-left: 2px solid rgb(62, 230, 209);
+}
+
+#feature-box{
+  top: 2%;
+  width: 90%;
+  height: 60%;
+  left: 5%;
+  position: relative;
+}
+
+.feature{
+  height: 30%;
+  position: relative;
+}
+
+.feature-h{
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  height: 10%;
+  font-family: 'Serif';
+  font-size: 1.3em;
+  font-style: italic;
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.feature-h a:hover{
+  color: rgb(255, 153, 0);
+}
+
+.feature-p{
+  font-family: 'Catamaran';
+  font-size: 1em;
+  display: inline-block;
+  overflow: hidden;
+  width:70%;
+  max-width: 500px;
+  font-weight: lighter;
+  float: left;
+  margin-top: 70px;
+  height: 50%;
+}
+
+.feature-img{
+  margin-top: 5%;
+  width: 170px;
+  height: 96px;
+  float: right;
+  border-radius: 2%;
+}
+
+.feature-img img{
+  width: 100%;
+  height: 100%;
+}
+
+.divider{
+  width: 100%;
+  border-top: 2px rgb(62, 230, 209) solid;
+  height: 1%;
+  margin:auto;
+}
+
+#more {
+  height: 7%;
+  width: 100%
+}
+
+#more a{
+  font-family: 'Catamaran';
+  font-size: 1.5em;
+  display: inline-block;
+  float: right;
+  margin-right: 6%;
+  text-decoration: underline;
+}
+
+#footer{
+  padding-top: 4px;
+  width: 100%;
+  position: relative;
+  bottom: 0%;
+  background-color: rgb(62, 230, 209);
+  color: white;
+  font-family: 'Catamaran';
+  font-size: 0.7em;
+  text-align: center;
+  height:18px;
+}
